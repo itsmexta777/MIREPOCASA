@@ -397,9 +397,9 @@ Después el comentario se relaciona con el álbum correspondiente y finalmente s
 
 # Diseño de la Base de Datos y Relaciones
 
-```html
+
 <img width="823" height="520" alt="image" src="https://github.com/user-attachments/assets/25770fad-9a53-4bc6-8b32-03ea061eb88b" />
-```
+
 
 La base de datos del proyecto “Disquera” fue desarrollada utilizando el ORM de Django, permitiendo manejar la información mediante modelos relacionados entre sí.
 
@@ -1183,9 +1183,9 @@ User (1) → (N) Order
 
 Este modelo almacena los productos individuales comprados dentro de una orden.
 
-```html
+
 <img width="274" height="491" alt="image" src="https://github.com/user-attachments/assets/b4ad1a01-8ff8-4315-92d5-e04d5941132d" />
-```
+
 
 ### Campos
 
@@ -1469,9 +1469,9 @@ Antes de eliminar la información, Django solicita una confirmación para evitar
 
 Sirven para agrupar permisos.
 
-```html
+
 <img width="679" height="298" alt="image" src="https://github.com/user-attachments/assets/f15dc10c-0c51-490c-a30e-c872537736cb" />
-```
+
 
 ---
 
@@ -1479,9 +1479,7 @@ Sirven para agrupar permisos.
 
 Aquí se guardan los usuarios del sistema.
 
-```html
 <img width="679" height="369" alt="image" src="https://github.com/user-attachments/assets/a3f190a2-f970-47a9-87e6-ae208d448852" />
-```
 
 ---
 
@@ -1489,16 +1487,16 @@ Aquí se guardan los usuarios del sistema.
 
 Guarda información de los artistas.
 
-```html
+
 <img width="677" height="374" alt="image" src="https://github.com/user-attachments/assets/b0f4fe94-c64b-4cec-a431-f6fe866c1a37" />
-```
+
 ## Cart Items
 
 Representa productos dentro del carrito de compras.
 
-```html
+
 <img width="681" height="353" alt="image" src="https://github.com/user-attachments/assets/f1750312-8b42-4aed-bad9-6af8e4ef219f" />
-```
+
 
 ---
 
@@ -1506,9 +1504,9 @@ Representa productos dentro del carrito de compras.
 
 Sirven para clasificar álbumes.
 
-```html
+
 <img width="672" height="346" alt="image" src="https://github.com/user-attachments/assets/3ae01e2c-a145-4da5-9118-32171ce5acd4" />
-```
+
 
 ---
 
@@ -1516,9 +1514,9 @@ Sirven para clasificar álbumes.
 
 Comentarios de los usuarios.
 
-```html
+
 <img width="680" height="391" alt="image" src="https://github.com/user-attachments/assets/a26afb37-b1d4-4198-b174-ff0315b506d0" />
-```
+
 
 ---
 
@@ -1526,9 +1524,9 @@ Comentarios de los usuarios.
 
 Cada Post representa un disco o álbum.
 
-```html
+
 <img width="682" height="376" alt="image" src="https://github.com/user-attachments/assets/72e80f90-46cd-4697-8b14-255552d5490b" />
-```
+
 
 ---
 
@@ -1536,9 +1534,9 @@ Cada Post representa un disco o álbum.
 
 Características adicionales de un álbum.
 
-```html
+
 <img width="684" height="343" alt="image" src="https://github.com/user-attachments/assets/314e8337-a07e-4b8c-b5d6-cf594d9637bf" />
-```
+
 
 ---
 
@@ -1640,9 +1638,9 @@ Por ejemplo:
 
 El template recibe la variable posts enviada por el view y muestra cada álbum en pantalla.
 
-```html
+
 <img width="655" height="371" alt="image" src="https://github.com/user-attachments/assets/7bc3fdd0-e136-4d93-97a1-b3ff4f1030d8" />
-```
+
 
 ---
 
@@ -1658,9 +1656,9 @@ Este view controla la página principal de la aplicación.
 
 Lo que hace es:
 
-```html
+
 <img width="669" height="350" alt="image" src="https://github.com/user-attachments/assets/191f1bbf-bbd0-48ff-b0c4-76c511f835d8" />
-```
+
 
 - obtener los álbumes activos,
 - obtener las categorías,
@@ -1688,9 +1686,9 @@ def category_detail(request, slug):
 
 Este view muestra los álbumes de una categoría
 
-```html
+
 <img width="624" height="344" alt="image" src="https://github.com/user-attachments/assets/73492b10-4b21-4926-b56e-9b12e86b5e8a" />
-```
+
 
 específica.
 
@@ -1724,9 +1722,9 @@ Este view muestra la información detallada de un álbum.
 
 La URL manda el id del álbum:
 
-```html
+
 <img width="655" height="336" alt="image" src="https://github.com/user-attachments/assets/019290a1-d818-490a-a34c-d050203b5b62" />
-```
+
 
 ```python
 path('detail/<int:id>/', detail)
@@ -1766,9 +1764,9 @@ Este view muestra el carrito de compras.
 
 El decorador:
 
-```html
+
 <img width="682" height="348" alt="image" src="https://github.com/user-attachments/assets/a93bc371-d6a2-4491-8ce8-fcb4ca215e3b" />
-```
+
 
 ```python
 @login_required
@@ -1794,9 +1792,9 @@ Este view permite agregar productos al carrito.
 
 Proceso:
 
-```html
+
 <img width="629" height="330" alt="image" src="https://github.com/user-attachments/assets/daaf41bc-0287-44a2-b6de-f9f4ac8bdf37" />
-```
+
 
 - Obtiene el álbum.
 - Revisa si ya existe en el carrito.
@@ -1822,9 +1820,9 @@ def register(request):
 
 Este view se encarga del registro de usuarios.
 
-```html
+
 <img width="674" height="346" alt="image" src="https://github.com/user-attachments/assets/40b86c71-9ff2-47af-aa9b-af407977bedb" />
-```
+
 
 Funciones principales:
 
@@ -1850,9 +1848,9 @@ def checkout(request):
 
 Este es uno de los views más importantes porque controla el proceso de compra.
 
-```html
+
 <img width="683" height="343" alt="image" src="https://github.com/user-attachments/assets/06000417-e1ca-4032-8f4a-b27c5536d36a" />
-```
+
 
 Aquí se conectan varias partes de la aplicación:
 
@@ -1895,9 +1893,9 @@ def success(request):
 
 Este view solamente muestra la pantalla de compra exitosa.
 
-```html
+
 <img width="679" height="327" alt="image" src="https://github.com/user-attachments/assets/e79f257d-f4f8-4cca-b152-004e29810569" />
-```
+
 
 Renderiza el template:
 
@@ -1917,9 +1915,9 @@ Este view muestra el historial de pedidos del usuario.
 
 Lo que hace es:
 
-```html
+
 <img width="677" height="367" alt="image" src="https://github.com/user-attachments/assets/d7c38ad6-999c-4377-aa6b-3650b0fcceda" />
-```
+
 
 - obtener las órdenes del usuario,
 - ordenarlas por fecha,
