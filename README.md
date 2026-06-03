@@ -2038,11 +2038,8 @@ Y si no ha iniciado sesión aparecen:
 
 ## Aqui se lleva un registro de los pedidos que ya se han hecho
 
-```html
-<img width="723" height="426" alt="image" src="https://github.com/user-attachments/assets/2d04bae8-b6ea-4e9c-8e06-7bb4abd5b799" />
-```
 
----
+<img width="723" height="426" alt="image" src="https://github.com/user-attachments/assets/2d04bae8-b6ea-4e9c-8e06-7bb4abd5b799" />
 
 # Conclusión:
 
