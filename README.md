@@ -1976,65 +1976,58 @@ Y si no ha iniciado sesión aparecen:
 - login,
 - registro.
 
----
+
 
 # IMPLEMENTACIÓN DE LA APLICACIÓN
 
 ## inicio de sesión para poder usar la pagina:
 
-```html
+
 <img width="678" height="369" alt="image" src="https://github.com/user-attachments/assets/6d3da629-7bc7-4a85-b62d-6c386d4c9125" />
 
 <img width="686" height="351" alt="image" src="https://github.com/user-attachments/assets/e6d2b9a9-1320-4566-9d85-e1153c0bbbed" />
-```
 
----
+
+
 
 ## Una vez registrado tienes una variedad de apartados de álbumes:
 
-```html
+
 <img width="647" height="344" alt="image" src="https://github.com/user-attachments/assets/bbb46975-f9f9-4b88-9add-c9440e180c08" />
 
 <img width="631" height="349" alt="image" src="https://github.com/user-attachments/assets/c98b15f5-2382-4f66-9a19-ae5641442034" />
-```
 
----
+
+
 
 ## En caso de buscar un album o artista en especifico se usa la pestaña de búsqueda
 
-```html
+
 <img width="680" height="388" alt="image" src="https://github.com/user-attachments/assets/6e7ef304-6051-41e1-82b4-ea9b5f660310" />
 
 <img width="672" height="371" alt="image" src="https://github.com/user-attachments/assets/a156f2da-136b-4ad2-b258-f1c2e92414f6" />
-```
 
----
+
+
 
 ## cada álbum tiene un apartado con su nombre precio canción y descripción:
 
-```html
-<img width="416" height="496" alt="image" src="https://github.com/user-attachments/assets/160abbcc-0796-4753-a3ed-58c382ac601e" />
-```
 
----
+<img width="416" height="496" alt="image" src="https://github.com/user-attachments/assets/160abbcc-0796-4753-a3ed-58c382ac601e" />
+
 
 ## en este apartado se muestra la forma en que puedes comprar un álbum y la cantidad que tu quieres comprar:
 
-```html
-<img width="732" height="314" alt="image" src="https://github.com/user-attachments/assets/c35823a1-9cc5-4bcc-8eb9-3ff1119e448a" />
-```
 
----
+<img width="732" height="314" alt="image" src="https://github.com/user-attachments/assets/c35823a1-9cc5-4bcc-8eb9-3ff1119e448a" />
+
 
 ## aqui se muestra la forma de pago junto con los requisitos que se necesitan para tu pedido:
 
-```html
+
 <img width="721" height="375" alt="image" src="https://github.com/user-attachments/assets/3ae81e32-0e0f-4208-a6ed-bd9bbbab8a67" />
 
 <img width="721" height="368" alt="image" src="https://github.com/user-attachments/assets/02beaa55-f9ad-4bda-b948-4241849b9e37" />
-```
-
----
 
 ## Aqui se lleva un registro de los pedidos que ya se han hecho
 
